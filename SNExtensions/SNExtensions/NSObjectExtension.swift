@@ -34,7 +34,7 @@ public extension NSObject {
     }
     
     @discardableResult
-    public class func swizzleMethodSelector(origSelector: String!, withSelector: String!, forClass:AnyClass!) -> Bool {
+    public class func swizzleMethodSelector(origSelector: String, withSelector: String, forClass:AnyClass) -> Bool {
         
         var originalMethod: Method?
         var swizzledMethod: Method?
@@ -51,7 +51,7 @@ public extension NSObject {
     }
     
     @discardableResult
-    public class func swizzleStaticMethodSelector(origSelector: String!, withSelector: String!, forClass:AnyClass!) -> Bool {
+    public class func swizzleStaticMethodSelector(origSelector: String, withSelector: String, forClass:AnyClass) -> Bool {
         
         var originalMethod: Method?
         var swizzledMethod: Method?
