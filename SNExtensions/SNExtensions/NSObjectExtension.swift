@@ -10,7 +10,7 @@ import UIKit
 
 public extension NSObject {
     
-    public class var className: String {
+    class var className: String {
         let str = classAllName;
         let strArray = str.components(separatedBy: ".");
         if strArray.count >= 2 {
@@ -19,7 +19,7 @@ public extension NSObject {
         return str;
     }
     
-    public class var projectName: String {
+    class var projectName: String {
         let str = classAllName;
         let strArray = str.components(separatedBy: ".");
         if strArray.count >= 1 {
@@ -28,13 +28,13 @@ public extension NSObject {
         return str;
     }
 
-    public class var classAllName: String {
+    class var classAllName: String {
         let str = NSStringFromClass(self);
         return str;
     }
     
     @discardableResult
-    public class func swizzleMethodSelector(origSelector: String, withSelector: String, forClass:AnyClass) -> Bool {
+    class func swizzleMethodSelector(origSelector: String, withSelector: String, forClass:AnyClass) -> Bool {
         
         var originalMethod: Method?
         var swizzledMethod: Method?
@@ -51,7 +51,7 @@ public extension NSObject {
     }
     
     @discardableResult
-    public class func swizzleStaticMethodSelector(origSelector: String, withSelector: String, forClass:AnyClass) -> Bool {
+    class func swizzleStaticMethodSelector(origSelector: String, withSelector: String, forClass:AnyClass) -> Bool {
         
         var originalMethod: Method?
         var swizzledMethod: Method?

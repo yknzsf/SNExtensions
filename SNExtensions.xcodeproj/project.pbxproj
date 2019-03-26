@@ -274,10 +274,12 @@
 					};
 					DE0A044A2121519800693022 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1020;
 						TestTargetID = DE0A04362121519700693022;
 					};
 					DE0A04552121519800693022 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1020;
 						TestTargetID = DE0A04362121519700693022;
 					};
 				};
@@ -553,7 +555,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.SNExtensions;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -571,7 +573,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.SNExtensions;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -590,7 +592,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.SNExtensionsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SNExtensions.app/SNExtensions";
 			};
@@ -610,7 +612,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.SNExtensionsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SNExtensions.app/SNExtensions";
 			};
@@ -629,7 +631,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.SNExtensionsUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = SNExtensions;
 			};
@@ -648,7 +650,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.SNExtensionsUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = SNExtensions;
 			};

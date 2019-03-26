@@ -29,7 +29,7 @@ public extension Dictionary {
 
 public extension Dictionary where Value: Equatable {
     func keyFor(value: Value) -> Key? {
-        guard let index = index(where: { $0.1 == value }) else {
+        guard let index = firstIndex(where: { $0.1 == value }) else {
             return nil
         }
         return self[index].0

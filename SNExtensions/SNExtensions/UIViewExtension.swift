@@ -203,7 +203,7 @@ public extension UIView {
         static let touchAreaInsetsKey = UnsafeRawPointer(bitPattern: "touchAreaInsetsKey".hashValue);
     }
     
-    public var touchAreaInsets: UIEdgeInsets {
+    var touchAreaInsets: UIEdgeInsets {
         get {
             let e = objc_getAssociatedObject(self, TouchAreaAssociatedKey.touchAreaInsetsKey!);
             return e as? UIEdgeInsets ?? UIEdgeInsets.zero;

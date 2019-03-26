@@ -293,11 +293,11 @@ public extension String {
         return self[0..<index] + string + self[index..<length]
     }
     
-    public var md5: String {
+    var md5: String {
         return SNMD5.encodeMD5(digest: md5Digest)
     }
     
-    public var md5Digest: [Byte] {
+    var md5Digest: [Byte] {
         let bytes = [Byte](self.utf8)
         let digest = SNMD5.md5(bytes)
         return digest.digest

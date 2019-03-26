@@ -10,13 +10,13 @@ import UIKit
 
 public extension Timer {
 
-    public class func scheduledTimerWithTimeInterval(timeInterval interval: TimeInterval, repeats: Bool, block: @escaping (Timer) -> Swift.Void) -> Timer {
+    class func scheduledTimerWithTimeInterval(timeInterval interval: TimeInterval, repeats: Bool, block: @escaping (Timer) -> Swift.Void) -> Timer {
         
         let timer = Timer.scheduledTimer(timeInterval: interval, target: self, selector: #selector(Timer.execBlock(timer:)), userInfo: block, repeats: repeats);
         return timer
     }
     
-    public class func timerWithTimeInterval(timeInterval interval: TimeInterval, repeats: Bool, block: @escaping (Timer) -> Swift.Void) -> Timer {
+    class func timerWithTimeInterval(timeInterval interval: TimeInterval, repeats: Bool, block: @escaping (Timer) -> Swift.Void) -> Timer {
         let timer = Timer(timeInterval: interval, target: self, selector: #selector(Timer.execBlock(timer:)), userInfo: block, repeats: repeats);
         return timer;
     }

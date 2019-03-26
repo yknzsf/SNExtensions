@@ -10,19 +10,19 @@ import UIKit
 
 public extension UIScreen {
     
-    public class var pixelLength: CGFloat {
+    class var pixelLength: CGFloat {
         return 1.0 / UIScreen.main.nativeScale;
     }
     
-    public var width: CGFloat {
+    var width: CGFloat {
         return UIScreen.main.bounds.size.width;
     }
     
-    public var height: CGFloat {
+    var height: CGFloat {
         return UIScreen.main.bounds.size.height;
     }
     
-    public var size: CGSize {
+    var size: CGSize {
         return UIScreen.main.bounds.size;
     }
 }

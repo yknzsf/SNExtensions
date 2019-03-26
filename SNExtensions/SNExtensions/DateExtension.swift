@@ -150,7 +150,7 @@ public extension Date {
     
     //  Check date is equal date
     func equalDate(date : Date) -> Bool {
-        return self.equalDate(date: date);
+        return self.compare(date) == ComparisonResult.orderedSame;
     }
     
     //  Get days difference between dates
