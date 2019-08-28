@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		4C2920C438DAAFA919EC1C3C /* Pods_SNExtensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCE4FB40F80B45ECEF86AC55 /* Pods_SNExtensions.framework */; };
+		4FB9C9022316308F0013D395 /* UIButtonExtraSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB9C9012316308F0013D395 /* UIButtonExtraSize.swift */; };
+		4FB9C90423164DBB0013D395 /* DoubleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB9C90323164DBB0013D395 /* DoubleExtension.swift */; };
+		4FB9C906231650320013D395 /* FloatExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB9C905231650320013D395 /* FloatExtension.swift */; };
+		4FB9C9082316689F0013D395 /* OptionalExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB9C9072316689F0013D395 /* OptionalExtension.swift */; };
 		DE0A043B2121519700693022 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0A043A2121519700693022 /* AppDelegate.swift */; };
 		DE0A043D2121519700693022 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0A043C2121519700693022 /* ViewController.swift */; };
 		DE0A04402121519700693022 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE0A043E2121519700693022 /* Main.storyboard */; };
@@ -50,6 +54,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4FB9C9012316308F0013D395 /* UIButtonExtraSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExtraSize.swift; sourceTree = "<group>"; };
+		4FB9C90323164DBB0013D395 /* DoubleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleExtension.swift; sourceTree = "<group>"; };
+		4FB9C905231650320013D395 /* FloatExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatExtension.swift; sourceTree = "<group>"; };
+		4FB9C9072316689F0013D395 /* OptionalExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionalExtension.swift; sourceTree = "<group>"; };
 		7D0F640CDAE72371B8A8E79C /* Pods-SNExtensions.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNExtensions.release.xcconfig"; path = "Pods/Target Support Files/Pods-SNExtensions/Pods-SNExtensions.release.xcconfig"; sourceTree = "<group>"; };
 		BCE4FB40F80B45ECEF86AC55 /* Pods_SNExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SNExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD5EE78E5DC6BA3FC9425EE2 /* Pods-SNExtensions.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNExtensions.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SNExtensions/Pods-SNExtensions.debug.xcconfig"; sourceTree = "<group>"; };
@@ -198,6 +206,10 @@
 				DE0A0476212152C200693022 /* DictionaryExtension.swift */,
 				DE0A0477212152C200693022 /* UIImageExtension.swift */,
 				DE0A0478212152C200693022 /* DateExtension.swift */,
+				4FB9C9012316308F0013D395 /* UIButtonExtraSize.swift */,
+				4FB9C90323164DBB0013D395 /* DoubleExtension.swift */,
+				4FB9C905231650320013D395 /* FloatExtension.swift */,
+				4FB9C9072316689F0013D395 /* OptionalExtension.swift */,
 			);
 			path = SNExtensions;
 			sourceTree = "<group>";
@@ -357,6 +369,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FB9C9082316689F0013D395 /* OptionalExtension.swift in Sources */,
 				DE0A0481212152C200693022 /* URLExtension.swift in Sources */,
 				DE0A0482212152C200693022 /* DataExtension.swift in Sources */,
 				DE0A0487212152C200693022 /* UIImageExtension.swift in Sources */,
@@ -368,11 +381,14 @@
 				DE0A0486212152C200693022 /* DictionaryExtension.swift in Sources */,
 				DE0A047C212152C200693022 /* NSObjectExtension.swift in Sources */,
 				DE0A047A212152C200693022 /* UIScreenExtension.swift in Sources */,
+				4FB9C9022316308F0013D395 /* UIButtonExtraSize.swift in Sources */,
 				DE0A047F212152C200693022 /* IntExtension.swift in Sources */,
 				DE0A0488212152C200693022 /* DateExtension.swift in Sources */,
 				DE0A0484212152C200693022 /* UIFontExtension.swift in Sources */,
+				4FB9C90423164DBB0013D395 /* DoubleExtension.swift in Sources */,
 				DE0A047E212152C200693022 /* TimerExtension.swift in Sources */,
 				DE0A043B2121519700693022 /* AppDelegate.swift in Sources */,
+				4FB9C906231650320013D395 /* FloatExtension.swift in Sources */,
 				DE0A0479212152C200693022 /* UIButtonExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
