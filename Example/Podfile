@@ -1,0 +1,12 @@
+use_frameworks!
+inhibit_all_warnings!
+
+target 'SNExtensions_Example' do
+  pod 'SNExtensions', :path => '../'
+
+  target 'SNExtensions_Tests' do
+    inherit! :search_paths
+
+    #pod 'FBSnapshotTestCase' , '~> 2.1.4'
+  end
+end

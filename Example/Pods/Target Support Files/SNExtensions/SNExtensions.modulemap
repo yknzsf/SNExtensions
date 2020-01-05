@@ -1,0 +1,6 @@
+framework module SNExtensions {
+  umbrella header "SNExtensions-umbrella.h"
+
+  export *
+  module * { export * }
+}
